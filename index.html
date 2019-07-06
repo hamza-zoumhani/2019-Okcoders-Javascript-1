@@ -6,16 +6,24 @@
 
 <body>
     <script>
-        var name = prompt("Users name:");
-        var age = prompt("Users age:");
+        // var name = prompt("Users name:");
+        // var age = prompt("Users age:");
 
-        if (age>55){
-            document.write(name + " is old!")
-        }else if (age <25){
-            document.write(name + " is young")
-        }else{
-            document.write(name + " is just right!")
+        // if (age>55){
+        //     document.write(name + " is old!")
+        // }else if (age <25){
+        //     document.write(name + " is young")
+        // }else{
+        //     document.write(name + " is just right!")
+        // }
+        
+        var n=99;
+        while(n>0){
+            document.write(n + " bottles of beer on the wall, " + n + " bottles of beer. <br>");
+            document.write("Take one down and pass it around, " + (n-1) + " bottles of beer on the wall. <br>")
+            n--;
         }
+        
 
     </script>
 </body>
