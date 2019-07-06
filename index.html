@@ -9,15 +9,13 @@
         var name = prompt("Users name:");
         var age = prompt("Users age:");
 
-        if (age < 55 && age > 25) {
-            document.write("You are just right!")
-        }
         if (age>55){
             document.write(name + " is old!")
-        }else {
+        }else if (age <25){
             document.write(name + " is young")
+        }else{
+            document.write(name + " is just right!")
         }
-
 
     </script>
 </body>
